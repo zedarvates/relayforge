@@ -1,0 +1,8 @@
+{
+  "schema_version": "0.1-example",
+  "task_id": "example-001",
+  "operation": "files.compare",
+  "inputs": {"left_ref": "artifact:left", "right_ref": "artifact:right"},
+  "permissions": {"read_only": true},
+  "status": "pending"
+}
